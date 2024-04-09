@@ -24,7 +24,7 @@ before: `╭─┉┉┉┉┈◈ *INFO* ◈┈┉┉┉┉┉𓆩ꨄ︎𓆪
   header: '╭─┉┉┈◈ *%category* ◈┈┉┉𓆩ꨄ︎𓆪 ',
   body: '┇ ☆  %cmd',
   footer: '╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉𓆩ꨄ︎𓆪\n',
-   after: `*Made by ♡ Shizo*`,
+   after: `*Made by ♡ Monster-Bunny*`,
   }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {

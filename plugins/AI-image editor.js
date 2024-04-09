@@ -66,7 +66,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "enhance");
-					conn.sendFile(m.chat, This, "shizo.img", maker, m);
+					conn.sendFile(m.chat, This, "Monster-Bunny.img", maker, m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -95,7 +95,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "enhance");
-					conn.sendFile(m.chat, This, "shizo.img", maker, m);
+					conn.sendFile(m.chat, This, "Monster-Bunny.img", maker, m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -124,7 +124,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "enhance");
-					conn.sendFile(m.chat, This, "shizo.img", maker, m);
+					conn.sendFile(m.chat, This, "Monster-Bunny.img", maker, m);
 				} catch (er) {
 					error = true;
 				} finally {
