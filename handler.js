@@ -594,7 +594,7 @@ global.dfail = (type, m, conn) => {
         admin: '🛡️ This command is only for *Admins* of the group',
         nsfw: 'Enable NSFW to use this command 🥵🔥',
         botAdmin: '💥 To use this command I must be *Administrator*',
-        unreg: '📇 Sign up to use this feature by writing:\n\n*/reg Name.age*\n\n📌 Example: */reg Monster-Bunny.16*',
+        unreg: '📇 Sign up to use this feature by writing:\n\n*/reg Name.age*\n\n📌 Example: */reg shizo.16*',
         restrict: '🔐 This feature is *disabled* by Owner'
     }[type]
     if (msg) return m.reply(msg)
